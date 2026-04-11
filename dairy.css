@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    color: antiquewhite;
+}
+
+#diary {
+    text-align: center;
+    padding-top: 40px;
+}
+
+textarea {
+  background: transparent;
+  color: white;           /* text color (important for visibility) */
+  /* border: 1px solid rgba(255, 255, 255, 0.3); */
+  outline: none;
+  height: 70vh;
+  width: 80vw;
+  border: none;
+  margin-top: 20px;
+  margin-left: 40px;
+  text-align: left;
+}
+
+textarea::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#saveBtn {
+    background: #b163a9;
+    height: 80px;
+    width: 100px;
+    font-size: 30px;
+    padding: 10px;
+    color: rgba(1, 30, 23, 0.208);
+    border: none;
+    border-radius: 20px;
+}
