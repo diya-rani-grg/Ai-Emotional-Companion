@@ -35,7 +35,7 @@ textarea::placeholder {
     height: 80px;
     width: 100px;
     font-size: 30px;
-    padding: 10px;
+    padding: 5px;
     color: rgba(1, 30, 23, 0.208);
     border: none;
     border-radius: 20px;
