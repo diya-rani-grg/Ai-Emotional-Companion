@@ -1,7 +1,7 @@
 import { GoogleGenAI } from "https://cdn.jsdelivr.net/npm/@google/genai@1.32.0/+esm";
 
 const ai = new GoogleGenAI({
-    apiKey: "AIzaSyAmyKV_I7yFuUm2D1wsFSam6fkf9DOQjCY"
+    apiKey: ""
 });
 
 
