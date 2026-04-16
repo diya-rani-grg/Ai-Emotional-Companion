@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Emotional Companion</title>
+    <link rel="stylesheet" href="./css/dashboard.css">
+</head>
+<body>
+    <h1>My Mood Dashboard</h1>
+
+  <div id="chart-container">
+    <canvas id="moodChart"></canvas>
+  </div>
+
+  <p>Weekly Mood Overview</p>
+
+  <div class="mood-selector">
+  <p>How are you feeling today?</p>
+  
+  <button onclick="selectMood(1)">😢</button>
+  <button onclick="selectMood(2)">😟</button>
+  <button onclick="selectMood(3)">😐</button>
+  <button onclick="selectMood(4)">😊</button>
+  <button onclick="selectMood(5)">😁</button>
+</div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="./js/dashboard.js"></script>
+</body>
+</html>
